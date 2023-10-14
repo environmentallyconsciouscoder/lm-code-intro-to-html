@@ -1,1 +1,29 @@
 /* Your CSS styles here! */
+
+h1 a {
+    text-decoration: none;
+}
+
+.blue {
+    color: lightblue;
+}
+
+.large {
+    font-size: 3rem;
+}
+
+.image-container {
+    width: 50%;
+    border: thick double black;
+    margin: 1rem;
+}
+
+.video-container {
+    width: 50%;
+    border: thick double black;
+    margin: 1rem;
+}
+
+img {
+    width: 100%;
+}
