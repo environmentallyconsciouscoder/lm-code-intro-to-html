@@ -4,6 +4,10 @@ h1 a {
     text-decoration: none;
 }
 
+body {
+    color: darkblue;
+}
+
 .blue {
     color: lightblue;
 }
@@ -12,16 +16,11 @@ h1 a {
     font-size: 3rem;
 }
 
-.image-container {
+.container {
     width: 50%;
-    border: thick double black;
+    border: 10px dotted purple;
     margin: 1rem;
-}
-
-.video-container {
-    width: 50%;
-    border: thick double black;
-    margin: 1rem;
+    padding: 1rem;
 }
 
 img {
