@@ -6,6 +6,10 @@ h1 a {
 
 body {
     color: darkblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .blue {
@@ -17,7 +21,7 @@ body {
 }
 
 .container {
-    width: 50%;
+    /* width: 50%; */
     border: 10px dotted purple;
     margin: 1rem;
     padding: 1rem;
@@ -25,4 +29,9 @@ body {
 
 img {
     width: 100%;
+}
+
+section {
+    max-width: 62.5em;
+    min-width: 70vw;
 }
